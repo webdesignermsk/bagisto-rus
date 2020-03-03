@@ -25,15 +25,15 @@ class AttributeOptionTableSeeder extends Seeder
         ]);
 
         DB::table('attribute_option_translations')->insert([
-            ['id' => '1', 'locale' => 'en', 'label' => 'Red', 'attribute_option_id' => '1'],
-            ['id' => '2', 'locale' => 'en', 'label' => 'Green', 'attribute_option_id' => '2'],
-            ['id' => '3', 'locale' => 'en', 'label' => 'Yellow', 'attribute_option_id' => '3'],
-            ['id' => '4', 'locale' => 'en', 'label' => 'Black', 'attribute_option_id' => '4'],
-            ['id' => '5', 'locale' => 'en', 'label' => 'White', 'attribute_option_id' => '5'],
-            ['id' => '6', 'locale' => 'en', 'label' => 'S', 'attribute_option_id' => '6'],
-            ['id' => '7', 'locale' => 'en', 'label' => 'M', 'attribute_option_id' => '7'],
-            ['id' => '8', 'locale' => 'en', 'label' => 'L', 'attribute_option_id' => '8'],
-            ['id' => '9', 'locale' => 'en', 'label' => 'XL', 'attribute_option_id' => '9']
+            ['id' => '1', 'locale' => 'ru', 'label' => 'Red', 'attribute_option_id' => '1'],
+            ['id' => '2', 'locale' => 'ru', 'label' => 'Green', 'attribute_option_id' => '2'],
+            ['id' => '3', 'locale' => 'ru', 'label' => 'Yellow', 'attribute_option_id' => '3'],
+            ['id' => '4', 'locale' => 'ru', 'label' => 'Black', 'attribute_option_id' => '4'],
+            ['id' => '5', 'locale' => 'ru', 'label' => 'White', 'attribute_option_id' => '5'],
+            ['id' => '6', 'locale' => 'ru', 'label' => 'S', 'attribute_option_id' => '6'],
+            ['id' => '7', 'locale' => 'ru', 'label' => 'M', 'attribute_option_id' => '7'],
+            ['id' => '8', 'locale' => 'ru', 'label' => 'L', 'attribute_option_id' => '8'],
+            ['id' => '9', 'locale' => 'ru', 'label' => 'XL', 'attribute_option_id' => '9']
         ]);
     }
 }
